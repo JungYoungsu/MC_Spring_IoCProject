@@ -7,6 +7,8 @@ public class BeanContainer {
 			return new LgTV();
 		} else if(id.equals("samsung")) {
 			return new SamsungTV();
+		} else if(id.equals("google")) {
+			return new GoogleTV();
 		}
 		return null;
 	}
