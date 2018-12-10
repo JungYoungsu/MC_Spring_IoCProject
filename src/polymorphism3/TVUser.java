@@ -6,7 +6,7 @@ public class TVUser {
 	public static void main(String[] args) {
 		// 1. Spring 컨테이너를 생성(구동)한다. 
 		ClassPathXmlApplicationContext container = 
-			new ClassPathXmlApplicationContext("applicationContext.xml");
+			new ClassPathXmlApplicationContext("springConfig.xml");
 		
 //		// 2. Spring 컨테이너로부터 테스트할 객체를 검색(Lookup)한다.
 		TV tv = (TV) container.getBean("tv");
