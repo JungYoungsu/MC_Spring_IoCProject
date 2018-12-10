@@ -1,7 +1,10 @@
 package polymorphism3;
 
 public class SamsungTV implements TV {
+	private SonySpeaker speaker;
+	
 	public SamsungTV() {
+		speaker = new SonySpeaker();
 		System.out.println("===> SamsungTV 생성");
 	}
 	public void powerOn() {
@@ -11,9 +14,9 @@ public class SamsungTV implements TV {
 		System.out.println("SamsungTV---전원 끈다.");
 	}
 	public void volumeUp() {
-		System.out.println("SamsungTV---소리 올린다.");
+		speaker.volumeUp();
 	}
 	public void volumeDown() {
-		System.out.println("SamsungTV---소리 내린다.");
+		speaker.volumeDown();
 	}
 }
