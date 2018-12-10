@@ -1,5 +1,8 @@
 package polymorphism3;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class LgTV implements TV {
 	public LgTV() {
 		System.out.println("===> LgTV »ý¼º");
