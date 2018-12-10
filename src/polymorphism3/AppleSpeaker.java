@@ -1,7 +1,5 @@
 package polymorphism3;
 
-import org.springframework.stereotype.Component;
-
 public class AppleSpeaker implements Speaker {
 	public AppleSpeaker() {
 		System.out.println("===> AppleSpeaker »ý¼º");
