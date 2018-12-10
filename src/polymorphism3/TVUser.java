@@ -9,7 +9,7 @@ public class TVUser {
 			new ClassPathXmlApplicationContext("springConfig.xml");
 		
 //		// 2. Spring 컨테이너로부터 테스트할 객체를 검색(Lookup)한다.
-		TV tv = (TV) container.getBean("lgTV");
+		TV tv = (TV) container.getBean("tv");
 		tv.powerOn();
 		tv.volumeUp();
 		tv.volumeDown();
