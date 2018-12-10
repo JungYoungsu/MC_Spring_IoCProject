@@ -4,8 +4,11 @@ public class SamsungTV implements TV {
 	private SonySpeaker speaker;
 	
 	public SamsungTV() {
-		speaker = new SonySpeaker();
-		System.out.println("===> SamsungTV 积己");
+		System.out.println("===> SamsungTV(1) 积己");
+	}
+	public SamsungTV(SonySpeaker speaker) {
+		System.out.println("===> SamsungTV(2) 积己");
+		this.speaker = speaker;
 	}
 	public void powerOn() {
 		System.out.println("SamsungTV---傈盔 囊促.");
