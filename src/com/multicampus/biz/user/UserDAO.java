@@ -10,7 +10,6 @@ import org.springframework.stereotype.Repository;
 import com.multicampus.biz.common.JDBCUtil;
 
 // 2. DAO 클래스
-@Repository
 public class UserDAO {
 	// JDBC 관련 변수
 	private Connection conn = null;
